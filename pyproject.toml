@@ -24,7 +24,12 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
-dependencies = []
+dependencies = [
+  'dataclasses-json',
+  'python-socketio',
+  'eventlet',
+  'pywebview',
+]
 
 [project.urls]
 Documentation = "https://github.com/Ibon Zalbide/py-sio-ng-app#readme"
@@ -58,4 +63,12 @@ exclude_lines = [
   "no cov",
   "if __name__ == .__main__.:",
   "if TYPE_CHECKING:",
+]
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  'node_modules',
+  '.angular',
+  '.idea',
+  '.vscode',
 ]
