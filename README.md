@@ -4,6 +4,7 @@
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/py-sio-ng-app.svg)](https://pypi.org/project/py-sio-ng-app)
 
 -----
+Base package for Python + SocketIO + Angular applications
 
 ## Table of Contents
 
@@ -15,6 +16,9 @@
 ```console
 pip install py-sio-ng-app
 ```
+## Usage
+
+Check  SimpleApp example y examples folder.
 
 ## License
 

@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "py-sio-ng-app"
 dynamic = ["version"]
-description = ''
+description = 'Base package for Python + SocketIO + Angular applications'
 readme = "README.md"
 requires-python = ">=3.8"
 license = "MIT"
@@ -32,9 +32,9 @@ dependencies = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/Ibon Zalbide/py-sio-ng-app#readme"
-Issues = "https://github.com/Ibon Zalbide/py-sio-ng-app/issues"
-Source = "https://github.com/Ibon Zalbide/py-sio-ng-app"
+Documentation = "https://github.com/kliskatek/py-sio-ng-app#readme"
+Issues = "https://github.com/kliskatek/py-sio-ng-app/issues"
+Source = "https://github.com/kliskatek/py-sio-ng-app"
 
 [tool.hatch.version]
 path = "src/py_sio_ng_app/__about__.py"
