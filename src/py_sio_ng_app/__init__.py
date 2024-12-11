@@ -59,3 +59,6 @@ class PySioNgApp:
 
     def update_app_config(self, new_config):
         return self._config.app.update(new_config=new_config)
+
+    def get_app_config_dir(self):
+        return self._config.data_dirs.config_dir
